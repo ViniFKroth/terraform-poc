@@ -30,7 +30,7 @@ resource "aws_subnet" "public_subnet2" {
   vpc_id = aws_vpc.custom.id
   
   # IP Range of this subnet
-  cidr_block = "192.168.0.0/24"
+  cidr_block = "192.168.1.0/24"
   
   # Data Center of this subnet.
   availability_zone = "us-east-1b"
@@ -51,7 +51,7 @@ resource "aws_subnet" "public_subnet3" {
   vpc_id = aws_vpc.custom.id
   
   # IP Range of this subnet
-  cidr_block = "192.168.0.0/24"
+  cidr_block = "192.168.2.0/24"
   
   # Data Center of this subnet.
   availability_zone = "us-east-1c"
